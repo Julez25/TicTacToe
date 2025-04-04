@@ -9,8 +9,6 @@ class Player(Enum):
         ["O","O","O"]
         ]
     
-    def win_Con(self, list):
-        for 
 
 #print(Player.O)
 #print(Player.O.name)

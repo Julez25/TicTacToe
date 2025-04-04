@@ -21,6 +21,7 @@ class Grid:
         return self.__first_Value
     
     #Iteriert durch eine Liste und gibt deren Werte ohne Sonderzeichen in der Console aus
+    #Wird später ummodeliert da es nur zu veranschaulichung/Testen dient
     def grid_print(g_list):
         for list_ in g_list:
             print(" ".join(map(str, list_)))
